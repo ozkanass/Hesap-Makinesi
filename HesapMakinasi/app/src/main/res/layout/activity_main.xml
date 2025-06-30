@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <EditText
+        android:id="@+id/kutu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Birinci sayıyı girin"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/kutu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İkinci sayıyı girin"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnTopla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topla" />
+
+    <TextView
+        android:id="@+id/sonucText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Sonuç:"
+        android:textSize="18sp" />
+</LinearLayout>
